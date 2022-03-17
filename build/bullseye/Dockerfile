@@ -2,7 +2,7 @@ FROM debian:bullseye-slim
 
 ENV DEBIAN_FRONTEND noninteractive
 
-#COPY openvpn-as.sh /usr/local/bin/
+COPY openvpn-as.sh /usr/local/bin/
 
 ADD https://openvpn.net/downloads/openvpn-as-bundled-clients-latest.deb .
 ADD https://openvpn.net/downloads/openvpn-as-latest-debian11.amd_64.deb .
