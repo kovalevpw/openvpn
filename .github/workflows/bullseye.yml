@@ -46,4 +46,4 @@ jobs:
           pull: false
           push: true
           tags: kovalevpw/openvpn:bullseye
-        if: success() && github.ref == 'refs/heads/master'
+#        if: success() && github.ref == 'refs/heads/master'
